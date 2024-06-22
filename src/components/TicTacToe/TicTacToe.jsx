@@ -1,6 +1,5 @@
 import { FaRegCircle } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
-import "./style.scss";
 import { useState } from "react";
 
 function TicTacToe() {

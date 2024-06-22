@@ -182,7 +182,7 @@ a {
   padding-bottom: 20px !important;
 }
 
-.p-5 {
+.p-5, .tic-tac-toe {
   padding: 25px !important;
 }
 
@@ -976,11 +976,11 @@ a {
   align-items: end !important;
 }
 
-.flex-justify-center {
+.flex-justify-center, .tic-tac-toe .boxes, .tic-tac-toe {
   justify-content: center !important;
 }
 
-.flex-align-center {
+.flex-align-center, .tic-tac-toe .boxes, .tic-tac-toe {
   align-items: center !important;
 }
 
@@ -1420,11 +1420,11 @@ a {
     margin-left: 41.6666666667%;
   }
 }
-.flex-container {
+.flex-container, .tic-tac-toe .boxes, .tic-tac-toe .board, .tic-tac-toe {
   display: flex;
 }
 
-.flex-column {
+.flex-column, .tic-tac-toe {
   flex-direction: column;
 }
 
@@ -1536,7 +1536,7 @@ a {
   border-color: #fff !important;
 }
 
-.bg-inky {
+.bg-inky, .tic-tac-toe {
   background-color: #14142B !important;
 }
 
@@ -1752,7 +1752,7 @@ a {
   font-size: 54px !important;
 }
 
-.font-size-55 {
+.font-size-55, .tic-tac-toe .boxes svg {
   font-size: 55px !important;
 }
 
@@ -2021,6 +2021,27 @@ a {
   .container {
     max-width: 540px !important;
   }
+}
+.tic-tac-toe {
+  color: #fff;
+  height: 100vh;
+}
+.tic-tac-toe .board {
+  margin: auto;
+}
+.tic-tac-toe .boxes {
+  height: 200px;
+  width: 200px;
+  background-color: #832BC1;
+  border: 4px solid #14142B;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.tic-tac-toe .reset {
+  width: 50%;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
