@@ -1,4 +1,4 @@
-@import "@/style/sass/style.scss";
+@import "../../style/sass/style.scss";
 
 .tic-tac-toe {
     @extend .p-5;
@@ -20,8 +20,8 @@
         @extend .flex-container;
         @extend .flex-align-center;
         @extend .flex-justify-center;
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
         background-color: map-get($colors, info);
         border: 4px solid map-get($colors, inky);
         border-radius: 12px;
