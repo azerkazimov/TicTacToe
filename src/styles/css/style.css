@@ -16,6 +16,7 @@ html {
 
 body {
   position: relative;
+  background-color: #14142B;
 }
 
 main {
@@ -2001,9 +2002,12 @@ a {
   .container {
     max-width: 960px !important;
   }
+  .tic-tac-toe {
+    height: 100vh !important;
+  }
   .tic-tac-toe .boxes {
-    height: 100px !important;
-    width: 100px !important;
+    height: 110px !important;
+    width: 110px !important;
   }
   .tic-tac-toe .boxes svg {
     font-size: 36 !important;

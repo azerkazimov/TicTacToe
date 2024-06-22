@@ -2,13 +2,13 @@
 
 .tic-tac-toe {
     @extend .p-5;
-    @extend .bg-inky;
     @extend .flex-container;
     @extend .flex-column;
     @extend .flex-align-center;
     @extend .flex-justify-center;
 
     color: map-get($colors, natural);
+    height: 110vh;
     
     .board {
         @extend .flex-container;
