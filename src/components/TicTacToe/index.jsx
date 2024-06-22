@@ -1,6 +1,7 @@
 import { FaRegCircle } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
 import { useState } from "react";
+import "./style.scss";
 
 function TicTacToe() {
   const [count, setCount] = useState(0);
@@ -124,7 +125,9 @@ function TicTacToe() {
           </div>
         </div>
       </div>
-      <button className="reset" onClick={resetGame}>Reset</button>
+      <button className="reset" onClick={resetGame}>
+        Reset
+      </button>
     </div>
   );
 }

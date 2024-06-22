@@ -1,4 +1,4 @@
-import TicTacToe from "./components/TicTacToe/TicTacToe";
+import TicTacToe from "./components/TicTacToe";
 
 function App() {
   return (
