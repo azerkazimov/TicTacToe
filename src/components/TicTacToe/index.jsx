@@ -1,7 +1,7 @@
 import { FaRegCircle } from "react-icons/fa";
 import { RxCross1 } from "react-icons/rx";
 import { useState } from "react";
-import "./styles.css";
+import "./styles.scss";
 
 function TicTacToe() {
   const [count, setCount] = useState(0);
