@@ -1,4 +1,4 @@
-// @import "@/styles/sass/style.scss";
+@import "@/style/sass/style.scss";
 
 .tic-tac-toe {
     @extend .p-5;
@@ -9,7 +9,7 @@
 
     color: map-get($colors, natural);
     height: 110vh;
-    
+
     .board {
         @extend .flex-container;
 
