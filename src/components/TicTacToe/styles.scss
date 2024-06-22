@@ -15,7 +15,6 @@ body {
     align-items: center;
     padding: 25px;
     color: #fff;
-    // height: 100vh;
 
     .board {
         display: flex;
@@ -44,5 +43,20 @@ body {
         width: 50%;
         border-radius: 10px;
         font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .boxes {
+        width: 100px !important;
+        height: 100px !important;
+
+        svg {
+            font-size: 44px !important;
+        }
+    }
+
+    .title {
+        font-size: 32px;
     }
 }
