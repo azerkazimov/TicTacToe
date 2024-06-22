@@ -13,7 +13,7 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "@/sass/style.scss";`,
+        additionalData: `@import "@/style/sass/style.scss";`,
       },
     },
   },
