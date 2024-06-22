@@ -1753,11 +1753,11 @@ a {
   font-size: 54px !important;
 }
 
-.font-size-55, .tic-tac-toe .boxes svg {
+.font-size-55 {
   font-size: 55px !important;
 }
 
-.font-size-56 {
+.font-size-56, .tic-tac-toe .boxes svg {
   font-size: 56px !important;
 }
 
@@ -2028,7 +2028,6 @@ a {
 }
 .tic-tac-toe {
   color: #fff;
-  height: 100vh;
 }
 .tic-tac-toe .board {
   margin: auto;
